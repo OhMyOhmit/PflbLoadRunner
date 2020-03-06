@@ -1,0 +1,14 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Custom Request: GetCities",
+        "infFile": "t3.inf",
+        "time": 1582888215301
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Custom Request: GetWeather",
+        "infFile": "t4.inf",
+        "time": 1582888217191
+    }
+]

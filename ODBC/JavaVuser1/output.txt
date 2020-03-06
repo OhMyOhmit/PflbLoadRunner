@@ -1,0 +1,14 @@
+Virtual User Script started at: 28.02.2020 18:15:35
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Actions.
+Actions.java(84): Notify: Transaction "UPDATE" started.
+Actions.java(95): Notify: Transaction "UPDATE" ended with a "Pass" status (Duration: 0,0354).
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

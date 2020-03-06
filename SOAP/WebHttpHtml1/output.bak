@@ -1,0 +1,37 @@
+Virtual User Script started at: 28.02.2020 14:08:48
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Ë˛Î 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\¿ıÏÂ‰\Desktop\”˜Â·Í‡\pflbTELoadRunner\SOAP\WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(34): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(34): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(36): Notify: Transaction "GetCities" started.
+Action.c(38): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(45): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_custom_request("GetCities") started  	[MsgId: MMSG-26355]
+Action.c(52): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php"  	[MsgId: MMSG-26548]
+Action.c(52): web_custom_request("GetCities") was successful, 1529 body bytes, 347 header bytes  	[MsgId: MMSG-26386]
+Action.c(89): Last Day of Next Month is 2020/02/28
+Action.c(92): Notify: Transaction "GetCities" ended with a "Pass" status (Duration: 2,6404 Wasted Time: 1,2362).
+Action.c(94): Notify: Transaction "GetWeather" started.
+Action.c(96): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(98): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(98): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(103): web_custom_request("GetWeather") started  	[MsgId: MMSG-26355]
+Action.c(103): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php"  	[MsgId: MMSG-26548]
+Action.c(103): web_custom_request("GetWeather") was successful, 1302 body bytes, 347 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): Notify: Transaction "GetWeather" ended with a "Stop" status (Duration: 14,0227 Wasted Time: 0,0395).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

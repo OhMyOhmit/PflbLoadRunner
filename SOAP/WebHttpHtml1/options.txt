@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Ахмед\Desktop\Учебка\pflbTELoadRunner\SOAP\WebHttpHtml1
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\ахмед\desktop\учебка\pflbteloadrunner\soap\webhttphtml1\\logfile.log
+c:\users\ахмед\desktop\учебка\pflbteloadrunner\soap\webhttphtml1\\combined_WebHttpHtml1.c
+c:\users\ахмед\desktop\учебка\pflbteloadrunner\soap\webhttphtml1\\pre_cci.c

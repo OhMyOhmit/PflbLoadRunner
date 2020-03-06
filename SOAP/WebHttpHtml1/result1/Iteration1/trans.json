@@ -1,0 +1,12 @@
+[
+    {
+        "transactionName": "GetCities",
+        "rawStartTime": 1582888213072,
+        "rawEndTime": 1582888215327
+    },
+    {
+        "transactionName": "GetWeather",
+        "rawStartTime": 1582888216123,
+        "rawEndTime": 1582888217193
+    }
+]

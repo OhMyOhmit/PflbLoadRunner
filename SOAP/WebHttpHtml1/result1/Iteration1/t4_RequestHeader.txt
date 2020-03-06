@@ -1,0 +1,11 @@
+POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-cache
+Referer: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: graphical.weather.gov
+Content-Length: 941
+
